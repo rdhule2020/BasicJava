@@ -1,6 +1,6 @@
 package BasicLearnings;
 
-public class EvenNumbers {
+public class EvenNumbers1 {
 
 	public static void main(String[] args) {
 	
