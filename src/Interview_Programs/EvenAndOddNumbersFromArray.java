@@ -1,9 +1,9 @@
 package Interview_Programs;
-
+ 
 public class EvenAndOddNumbersFromArray {
 
 	public static void main(String[] args) {
-		int ar[] = { 2, 4, 7, 55, 33, 9,17,39,23,79};
+		int ar[] = { 2, 4, 7, 55, 33, 9, 17, 39, 23, 79};
 		
 		int even =0;
 		int odd = 0;
