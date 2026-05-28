@@ -8,7 +8,7 @@ public class RemoveDuplicateFromArray {
 	public static void main(String[] args) {
 		int ar[] = {12, 34, 54, 54, 12, 34, 67, 4, 54, 76, 4, 2};
 		
-		Set<Integer> set = new LinkedHashSet<>();
+		Set<Integer> set = new LinkedHashSet< >();
 		
 		for(int num : ar)
 		{
@@ -18,3 +18,4 @@ public class RemoveDuplicateFromArray {
 	}
 
 }
+ 

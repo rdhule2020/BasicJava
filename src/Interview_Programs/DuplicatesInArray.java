@@ -3,7 +3,7 @@ package Interview_Programs;
 public class DuplicatesInArray {
 
 	public static void main(String[] args) {
-
+ 
 		int ar[] = { 12, 24, 54, 23, 12, 34, 23, 23 };
 
 		System.out.println(" Duplicate elements :");

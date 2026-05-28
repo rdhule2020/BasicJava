@@ -1,13 +1,15 @@
- package Interview_Programs;
+package Interview_Programs;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Anagram_Strings {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s1 = " Silent";
-		String s2 = "lisTen";
+		Scanner sc = new Scanner(System.in);
+		String s1 = sc.next();//" Silent";
+		String s2 = sc.next();//"lisTen";
 		
 		s1=s1.replaceAll("\\s", "").toLowerCase();
 		s2=s2.toLowerCase();

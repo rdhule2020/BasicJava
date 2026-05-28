@@ -1,11 +1,14 @@
 package Interview_Programs;
 
+import java.util.Scanner;
+
 public class PrimeNumber {
 
 	public static void main(String [] args)
 	{
-		int num = 29;
-		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number :");
+		int num=sc.nextInt();
 		if(num<=1)
 		{
 			

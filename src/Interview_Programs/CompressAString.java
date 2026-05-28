@@ -21,5 +21,4 @@ public class CompressAString {
 		}
 		System.out.println(output);
 	}
-
 }
