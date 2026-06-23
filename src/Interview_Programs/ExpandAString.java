@@ -37,7 +37,8 @@ class ExpandAString {
         String input = "a2b3c4d5";
         StringBuilder output = new StringBuilder();
 
-        for (int i = 0; i < input.length(); i++) {
+        for (int i = 0; i < input.length(); i++)
+        {
             char ch = input.charAt(i);
 
             if (Character.isLetter(ch)) {

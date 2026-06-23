@@ -22,6 +22,7 @@ public class PalindromeString {
 		{
 			System.out.println("Not Plaindrome String");
 		}
+		sc.close();
 	}
 
 }

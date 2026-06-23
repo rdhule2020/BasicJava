@@ -12,7 +12,7 @@ public class Anagram_Strings {
 		String s2 = sc.next();//"lisTen";
 		
 		s1=s1.replaceAll("\\s", "").toLowerCase();
-		s2=s2.toLowerCase();
+		s2=s2.replaceAll("\\s", "").toLowerCase();
 		
 		char[] ar1 = s1.toCharArray();
 		char[] ar2 = s2.toCharArray();
@@ -28,7 +28,7 @@ public class Anagram_Strings {
 		{
 			System.out.println("Strings are not anagram");
 		}
-		
+		sc.close();
 	}
 
 }
