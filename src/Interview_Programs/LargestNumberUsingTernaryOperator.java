@@ -27,6 +27,8 @@ public class LargestNumberUsingTernaryOperator {
 		int largest = c>(a>b?a:b)?c:(a>b?a:b);
 		
 		System.out.println("Largest number :"+ largest);
+		
+		sc.close();
 	}
 
 }

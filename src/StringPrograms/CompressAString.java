@@ -1,0 +1,23 @@
+package StringPrograms;
+
+public class CompressAString {
+	public static void main(String [] args) {
+		
+		String str = "zaabbbccccdddddeeeeeeffggg";
+		StringBuilder output = new StringBuilder();
+		int count =1;
+		
+		for(int i=0; i<str.length(); i++)
+		{
+			if(i+1<str.length() && str.charAt(i)==str.charAt(i+1))
+			{
+				count++;
+			}else
+			{
+				output.append(str.charAt(i)).append(count);
+				count=1;
+			}
+		}
+		System.out.println(output.toString());
+	}
+}

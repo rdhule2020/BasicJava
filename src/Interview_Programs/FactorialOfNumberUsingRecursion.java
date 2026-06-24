@@ -19,6 +19,7 @@ public class FactorialOfNumberUsingRecursion {
 		}
 
 		System.out.println(result);
+		scanner.close();
 	}
 
 }

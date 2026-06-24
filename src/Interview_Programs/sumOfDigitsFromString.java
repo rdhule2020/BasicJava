@@ -9,10 +9,12 @@ public class sumOfDigitsFromString {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a String ");
 		String str = sc.next();// a2b3n4c5
-		int sum=0;
+		int sum = 0;
+		System.out.println(sum);
 		for(char ch : str.toCharArray()) {
 			if(Character.isDigit(ch)) {
-				sum = sum + ch - '0';
+				sum = sum + ch -'0';
+			 // sum += Integer.parseInt(String.valueOf(ch)); 
 			}
 		}
 		
